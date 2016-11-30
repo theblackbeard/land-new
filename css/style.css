@@ -1,0 +1,54 @@
+html {
+  background: url('../img/smart.jpg') no-repeat 50% 50% fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+.brand-logo{
+  margin-left: 30px;
+  font-family: 'Bungee', cursive;
+}
+
+#home{
+  position: absolute;
+
+  width: 800px;
+  height: 150px;
+  left: 50%;
+  top: 60%;
+  margin-left: -400px;
+}
+
+#home .ctl-a{
+    
+    float: left;
+    width: 45%;
+    height: 120px;
+    background-color: rgba(158, 172, 185, .3);
+
+}
+
+#home .ctl-b{
+    border: 0px solid black;
+    width: 50%;
+    float: right;
+    height: 120px;
+      background-color: rgba(238, 110, 115, .5);
+}
+
+.ctl-a h1, .ctl-b h1{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Bungee', cursive;
+}
+
+.ctl-a h1{
+  color: #262626;
+}
+
+.ctl-b h1{
+  color: #fff;
+}
